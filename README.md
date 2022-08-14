@@ -1,15 +1,18 @@
+# Study-fiber
+This repository is about some demos I learned about the fiber framework, it's not for production use, there's a bunch of things to do if you want to improve.
+
 # User module
 
 ```yaml
 path: /api/v1/users/:id
 method: GET
-description: 获取{id}的信息
+description: 获取{id}的信息 # get user information by id
 ```
 
 ```yaml
 path: /api/v1/users/:id
 method: PUT
-description: 提交{id}的信息
+description: 提交{id}的信息 # submiting user information by id
 ```
 
 ```yaml
@@ -21,12 +24,13 @@ description: 删除指定id的用户信息(只标记为删除,在后续的开发
 
 # Post module
 
+* post API
 ```yaml
 path: /api/v1/post
 method: POST
-description: "创建一个帖子"
+description: "创建一个帖子" # create a post
 ```
-* 返回数据
+* response
 ```json
 {
   "status": 200,
@@ -44,11 +48,11 @@ description: "创建一个帖子"
 ```yaml
 path: /api/v1/post/:id
 method: DELETE
-description: 删除指定id的帖子
+description: 删除指定id的帖子 # delete post by id
 ```
 
 ```yaml
 path: /api/v1/post/:id
 method: GET
-description: 获取指定id的帖子
+description: 获取指定id的帖子 # get post by id
 ```
