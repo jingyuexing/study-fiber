@@ -13,11 +13,11 @@ import (
 	logger "github.com/gofiber/fiber/v2/middleware/logger"
 	utils "github.com/gofiber/fiber/v2/utils"
 
-	admin "jingyuexing.io/study/fiber/admin" // 管理员接口
-	backdoor "jingyuexing.io/study/fiber/backdoor"
-	comments "jingyuexing.io/study/fiber/comments" // 评论接口
-	post "jingyuexing.io/study/fiber/post"
-	user "jingyuexing.io/study/fiber/user" // 用户接口
+	admin "jingyuexing.io/study-fiber/admin" // 管理员接口
+	backdoor "jingyuexing.io/study-fiber/backdoor"
+	comments "jingyuexing.io/study-fiber/comments" // 评论接口
+	post "jingyuexing.io/study-fiber/post"
+	user "jingyuexing.io/study-fiber/user" // 用户接口
 	// basicAuth "github.com/gofiber/fiber/v2/middleware/basicauth"
 	// swagger "github.com/gofiber/swagger"
 	// websocket "github.com/gofiber/websocket/v2"

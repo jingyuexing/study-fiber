@@ -1,4 +1,4 @@
-module jingyuexing.io/study/fiber
+module jingyuexing.io/study-fiber
 
 go 1.17
 
